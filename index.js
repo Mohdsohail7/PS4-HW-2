@@ -4,6 +4,7 @@ const calculatePercentage = require('./utilis/calculatePercentage/calculatePerce
 
 const roundToNearest = require('./utilis/roundToNearestNumber/roundToNearestNumber');
 
+const sumOfDigits = require('./utilis/sumOfDigits/sumOfDigits');
 
 // Task 1: Odd/Even Check
 // Example test cases
@@ -42,3 +43,10 @@ console.log();
 // Example test cases
 console.log(`Rounding 2.6: ${roundToNearest(2.6)}`); // Output: 3
 console.log(`Rounding -3.2: ${roundToNearest(-3.2)}`); // Output: -3
+
+console.log();
+
+// Task 4: Sum of Digits
+// Example test cases
+console.log(`Sum of digits for 456: ${sumOfDigits(456)}`); // Output: 15
+console.log(`Sum of digits for -789: ${sumOfDigits(-789)}`); // Output: 24
