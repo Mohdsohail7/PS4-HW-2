@@ -2,6 +2,8 @@ const isOddOrEven = require('./utilis/isOddOrEven/isOddOrEven');
 
 const calculatePercentage = require('./utilis/calculatePercentage/calculatePercentage');
 
+const roundToNearest = require('./utilis/roundToNearestNumber/roundToNearestNumber');
+
 
 // Task 1: Odd/Even Check
 // Example test cases
@@ -33,3 +35,10 @@ const totalTasks = 5;
 console.log(
   `You've completed ${calculatePercentage(completedTasks,totalTasks)}% of your tasks.`);
 // Output: You've completed 60.00% of your tasks.
+
+console.log();
+
+// Task 3: Round to Nearest Integer
+// Example test cases
+console.log(`Rounding 2.6: ${roundToNearest(2.6)}`); // Output: 3
+console.log(`Rounding -3.2: ${roundToNearest(-3.2)}`); // Output: -3
