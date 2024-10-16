@@ -8,6 +8,8 @@ const sumOfDigits = require('./utilis/sumOfDigits/sumOfDigits');
 
 const { findMax,  findMin } = require('./utilis/findMaxAndMin/findMaxAndMin');
 
+const isInRange = require('./utilis/isInRange/isInRange');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -61,4 +63,14 @@ console.log();
 const numbers = [4, -2, 7, 3];
 console.log(`Max value: ${findMax(numbers)}`); // Output: 7
 console.log(`Min value: ${findMin(numbers)}`); // Output: -2
+
+console.log();
+
+// Task 6: Range Check
+// Example test cases
+console.log(isInRange(5, 1, 10)); // true
+console.log(isInRange(-5, 0, 10)); // false
+
+
+
 
