@@ -18,6 +18,7 @@ describe("findMax function test", () => {
       });
 });
 
+
 describe("findMin function test", () => {
     test("returns minimum value from the array", () => {
         expect(findMin([1, 3, 5, 2])).toBe(1);

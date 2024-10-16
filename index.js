@@ -57,6 +57,7 @@ console.log();
 
 // Task 5: Finding Maximum or Minimum
 // Example test cases
+
 const numbers = [4, -2, 7, 3];
 console.log(`Max value: ${findMax(numbers)}`); // Output: 7
 console.log(`Min value: ${findMin(numbers)}`); // Output: -2
