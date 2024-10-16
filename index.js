@@ -6,6 +6,8 @@ const roundToNearest = require('./utilis/roundToNearestNumber/roundToNearestNumb
 
 const sumOfDigits = require('./utilis/sumOfDigits/sumOfDigits');
 
+const { findMax,  findMin } = require('./utilis/findMaxAndMin/findMaxAndMin');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -50,3 +52,12 @@ console.log();
 // Example test cases
 console.log(`Sum of digits for 456: ${sumOfDigits(456)}`); // Output: 15
 console.log(`Sum of digits for -789: ${sumOfDigits(-789)}`); // Output: 24
+
+console.log();
+
+// Task 5: Finding Maximum or Minimum
+// Example test cases
+const numbers = [4, -2, 7, 3];
+console.log(`Max value: ${findMax(numbers)}`); // Output: 7
+console.log(`Min value: ${findMin(numbers)}`); // Output: -2
+
