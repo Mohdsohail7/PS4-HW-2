@@ -10,6 +10,8 @@ const { findMax,  findMin } = require('./utilis/findMaxAndMin/findMaxAndMin');
 
 const isInRange = require('./utilis/isInRange/isInRange');
 
+const generateRandomNumber = require('./utilis/randomGenerateNumber/randomGenerateNumber');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -70,6 +72,13 @@ console.log();
 // Example test cases
 console.log(isInRange(5, 1, 10)); // true
 console.log(isInRange(-5, 0, 10)); // false
+
+// console.log();
+
+// Task 7: Random Number Generator
+// Example test cases
+console.log(generateRandomNumber(1, 100)); // Random number between 1 and 100
+console.log(generateRandomNumber(-10, 10)); // Random number between -10 and 10
 
 
 
