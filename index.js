@@ -18,6 +18,8 @@ const calculateTriangleArea = require('./utilis/calculateTriangleArea/calculateT
 
 const moduloOperation = require('./utilis/moduloOperation/moduloOperation');
 
+const convertCelsiusToFahrenheit = require('./utilis/convertCelsiusToFahrenheit/convertCelsiusToFahrenheit');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -106,6 +108,12 @@ console.log();
 // Example test cases
 console.log(moduloOperation(10, 3)); // 1
 console.log(moduloOperation(-10, 3)); // -1
+
+console.log();
+
+// Task 11: Convert Celsius to Fahrenheit
+console.log(convertCelsiusToFahrenheit(0)); // 32
+console.log(convertCelsiusToFahrenheit(100)); // 212
 
 
 
