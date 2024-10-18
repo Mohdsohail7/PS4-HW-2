@@ -12,6 +12,8 @@ const isInRange = require('./utilis/isInRange/isInRange');
 
 const generateRandomNumber = require('./utilis/randomGenerateNumber/randomGenerateNumber');
 
+const calculateSimpleInterest = require('./utilis/calculateSimpleInterest/calculateSimpleInterest');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -79,6 +81,13 @@ console.log(isInRange(-5, 0, 10)); // false
 // Example test cases
 console.log(generateRandomNumber(1, 100)); // Random number between 1 and 100
 console.log(generateRandomNumber(-10, 10)); // Random number between -10 and 10
+
+console.log();
+
+// Task 8: Simple Interest Calculation
+// Example test cases
+console.log(calculateSimpleInterest(1000, 5, 2)); // 100
+console.log(calculateSimpleInterest(5000, 4.5, 3)); // 675
 
 
 
