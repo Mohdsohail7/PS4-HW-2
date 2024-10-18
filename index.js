@@ -20,6 +20,8 @@ const moduloOperation = require('./utilis/moduloOperation/moduloOperation');
 
 const convertCelsiusToFahrenheit = require('./utilis/convertCelsiusToFahrenheit/convertCelsiusToFahrenheit');
 
+const calculateAverage = require('./utilis/calculateAverage/calculateAverage');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -115,5 +117,11 @@ console.log();
 console.log(convertCelsiusToFahrenheit(0)); // 32
 console.log(convertCelsiusToFahrenheit(100)); // 212
 
+console.log();
+
+// Task 12: Find Average
+// Example test cases
+console.log(calculateAverage([10, 20, 30, 40])); // 25
+console.log(calculateAverage([5, 10, 15, -5])); // 6.25
 
 
