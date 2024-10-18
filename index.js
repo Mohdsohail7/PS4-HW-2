@@ -14,6 +14,8 @@ const generateRandomNumber = require('./utilis/randomGenerateNumber/randomGenera
 
 const calculateSimpleInterest = require('./utilis/calculateSimpleInterest/calculateSimpleInterest');
 
+const calculateTriangleArea = require('./utilis/calculateTriangleArea/calculateTriangleArea');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -89,6 +91,11 @@ console.log();
 console.log(calculateSimpleInterest(1000, 5, 2)); // 100
 console.log(calculateSimpleInterest(5000, 4.5, 3)); // 675
 
+console.log();
 
+// Task 9: Area of Triangle
+// Example test cases
+console.log(calculateTriangleArea(10, 5)); // 25
+console.log(calculateTriangleArea(15.2, 7.5)); // 57
 
 
