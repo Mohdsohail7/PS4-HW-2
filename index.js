@@ -16,6 +16,8 @@ const calculateSimpleInterest = require('./utilis/calculateSimpleInterest/calcul
 
 const calculateTriangleArea = require('./utilis/calculateTriangleArea/calculateTriangleArea');
 
+const moduloOperation = require('./utilis/moduloOperation/moduloOperation');
+
 // Task 1: Odd/Even Check
 // Example test cases
 const userId1 = 1024;
@@ -97,5 +99,13 @@ console.log();
 // Example test cases
 console.log(calculateTriangleArea(10, 5)); // 25
 console.log(calculateTriangleArea(15.2, 7.5)); // 57
+
+console.log();
+
+// Task 10: Modulo Operation
+// Example test cases
+console.log(moduloOperation(10, 3)); // 1
+console.log(moduloOperation(-10, 3)); // -1
+
 
 
